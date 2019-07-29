@@ -9,3 +9,24 @@ body#help{
 body#status{
    background-image: url("../img/status.png");
 }
+
+@media only screen and (max-width: 600px) {
+  body#admin{
+     background-image: url("../img/admin-mobile.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+
+  body#help{
+     background-image: url("../img/help-mobile.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+
+  body#status{
+     background-image: url("../img/status-mobile.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+
+}

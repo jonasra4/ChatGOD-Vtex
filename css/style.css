@@ -1,3 +1,11 @@
-body{
+body#admin{
    background-image: url("../img/admin.png");
+}
+
+body#help{
+   background-image: url("../img/help.png");
+}
+
+body#status{
+   background-image: url("../img/status.png");
 }

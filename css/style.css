@@ -1,13 +1,19 @@
 body#admin{
    background-image: url("../img/admin.png");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 body#help{
    background-image: url("../img/help.png");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 body#status{
    background-image: url("../img/status.png");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {
